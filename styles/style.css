@@ -6,8 +6,9 @@
 }
 
 
-header {
+body {
 	text-align: center;
+	margin: 5px;
 }
 
 .top {
@@ -58,7 +59,7 @@ ul {
     list-style-type: none;
     margin-left: 10px;
     margin-right: 10px;
-	padding-inline-start:0px;
+	padding-inline-start: 0px;
 }
 
 li {
@@ -106,4 +107,39 @@ button {
 	border: 1px solid gray;
 	text-align: center;
 	
+}
+
+.main {
+	display: flex;
+	height: 500px;
+	justify-content: space-around;
+}
+
+.mainside {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	width: 24%;
+}
+
+.mainside div {
+	height: 150px;
+	border: 1px solid gray;
+}
+
+.middlemain {
+	width: 49%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column;
+}
+
+.bignews {
+	border: 1px solid gray;
+	height: 325px;
+}
+
+.ad {
+	border: 1px solid gray;
+	height: 150px;
 }
