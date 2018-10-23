@@ -43,6 +43,9 @@ body {
 }
 
 .topnav div {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
 	width: 32%;
 	border: 1px solid black;
 	background-color: #626262;
@@ -63,12 +66,15 @@ ul {
 }
 
 li {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
 	width:20%;
 	background-color: #626262;
 }
 
 .search {
-	display:flex;
+	display: flex;
 	margin: 10px;
 	height: 70px;
 	border: 1px solid gray;
@@ -76,12 +82,23 @@ li {
 
 }
 
+.searchword {
+	text-align: center;
+	margin: 10px;
+}
+
+.advanced {
+	margin-top: 40px;
+}
+
 input {
+	margin: 15px;
 	width: 800px;
 	height: 40px;
 }
 
 button {
+	margin: 15px;
 	text-align: center;
 	font-size: 16px;
 	padding: 9px;
@@ -142,4 +159,18 @@ button {
 .ad {
 	border: 1px solid gray;
 	height: 150px;
+}
+
+.whitebox {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	background-color: #ededed;
+}
+
+.blackbox {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	background-color: #bfbfbf;
 }
